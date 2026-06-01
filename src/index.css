@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-[#fff5f8] via-[#fcfcfc] to-[#fff0f5] min-h-screen text-slate-800 antialiased;
+  }
+  *, input, button, select, textarea {
+    font-family: 'Kanit', sans-serif !important;
+  }
+}
